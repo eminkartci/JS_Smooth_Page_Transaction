@@ -1,0 +1,18 @@
+{
+  "name": "page_transaction_project",
+  "version": "1.0.0",
+  "description": "Front-End JS Code for a better page transaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eminkartci",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.2",
+    "gsap": "^3.6.1"
+  }
+}

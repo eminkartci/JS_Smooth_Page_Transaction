@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/test.js"],"names":["test","console","log"],"mappings":";;;;;;;AACA,IAAMA,IAAI,GAAG,SAAPA,IAAO,GAAM;AACfC,EAAAA,OAAO,CAACC,GAAR,CAAY,wBAAZ;AACH,CAFD;;eAIeF","file":"test.bfc5c598.js","sourceRoot":"..","sourcesContent":["\nconst test = () => {\n    console.log(\"Hello from test file !\");\n}\n\nexport default test"]}
