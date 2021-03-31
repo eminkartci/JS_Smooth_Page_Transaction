@@ -5970,20 +5970,21 @@ var Fade = /*#__PURE__*/function (_Highway$Transition) {
   _createClass(Fade, [{
     key: "in",
     value: // Responsible for loading
-    function _in(fron, to, done) {
+    function _in(from, to, done) {
       // Time Line
       var tl = new _gsap.TimelineLite();
-      tl.duration(to, 1, {
+      tl.fromTo(to, 1, {
         left: '-100%',
         top: '50%'
       }, {
         left: '0%'
-      }).duration(to, 1, {
+      }).fromTo(to, 1, {
         height: '2vh'
       }, {
         height: '90vh',
         top: '10%',
         onComplete: function onComplete() {
+          from.remove();
           done();
         }
       });
@@ -6045,7 +6046,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56756" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50502" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
